@@ -1,0 +1,4 @@
+export VAGRANT_HOME="/media/blockchain/MY PASSPORT/Blochbench_stuff"
+
+export VAGRANT_DOTFILE_PATH="/media/blockchain/MY PASSPORT/Blockbench_stuff"
+

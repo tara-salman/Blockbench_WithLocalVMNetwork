@@ -1,0 +1,36 @@
+# -*- mode: ruby -*-
+
+# vi: set ft=ruby :
+
+VAGRANT_HOME="/media/blockchain/78ac51da-f180-4f37-9a74-6e9f231e0bc3"
+VAGRANT_DOTFILE_PATH="/media/blockchain/78ac51da-f180-4f37-9a74-6e9f231e0bc3"
+Vagrant.configure("2") do |config|
+
+
+
+<<<<<<< HEAD
+  (3..21).each do |i|
+=======
+  (3..22).each do |i|
+>>>>>>> 7e2822a610ef659a37881faabb0a0b899eb8197e
+    config.vm.define "puppetagent#{i}" do |puppetagent1|
+      puppetagent1.vm.box = "bento/ubuntu-16.04"
+
+      puppetagent1.vm.provision :shell, path: "bootstrap2.sh"
+      puppetagent1.vm.network "private_network", ip: "10.0.0.#{i}"
+
+      puppetagent1.vm.hostname = "puppetagent#{i}"
+    config.ssh.username = 'vagrant'
+    config.ssh.password = 'vagrant'
+    #config.ssh.insert_key = false
+    #config.vm.boot_timeout = 500
+   # config.vm.synced_folder "#{Dir.home}", "/home/vagrant/myHome" ...
+    config.vm.provider "virtualbox" do |vb|
+      vb.memory = "8192"
+      vb.cpus = "8"
+   # config.vm.synced_folder '/host/path', '/guest/path', SharedFoldersEnableSymlinksCreate: false
+    end
+    
+    end
+   end 
+end 

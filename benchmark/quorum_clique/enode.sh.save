@@ -1,0 +1,8 @@
+#!/bin/bash
+ip_addr=$1
+QUORUM=/home/vagrant/blockbench/benchmark/quorum_clique/quorum/build/bin/geth
+QUO_HOME=/home/vagrant/blockbench/benchmark/quorum_clique
+QUO_DATA=/home/vagrant/quorum_clique
+. $QUO_HOME/env.sh
+
+${QUORUM} --datadir=$QUO_DATA --rpc --rpcaddr 0.0.0.0 --rpcport "8000" --rpccorsdomain "*" --networkid 9119 --unlock 0 --password <(echo -n "") js <(ec

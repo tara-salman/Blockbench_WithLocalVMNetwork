@@ -1,0 +1,28 @@
+Loading config file from config.toml.2
+2019-08-21 03:35:13 UTC Running AuRa with an even number of validators (2) is not recommended (risk of network split).
+2019-08-21 03:35:13 UTC Starting Parity-Ethereum/v2.6.1-beta-7bfbe41-20190814/x86_64-linux-gnu/rustc1.36.0
+2019-08-21 03:35:13 UTC Keys path /home/vagrant/blockbench/benchmark/parity/chain-data/keys/PoA
+2019-08-21 03:35:13 UTC DB path /home/vagrant/blockbench/benchmark/parity/chain-data/chains/PoA/db/4f5d383450389501
+2019-08-21 03:35:13 UTC State DB configuration: fast
+2019-08-21 03:35:13 UTC Operating mode: active
+2019-08-21 03:35:13 UTC Not preparing block; cannot sign.
+2019-08-21 03:35:13 UTC Not preparing block; cannot sign.
+2019-08-21 03:35:13 UTC Configured for PoA using AuthorityRound engine
+2019-08-21 03:35:14 UTC Public node URL: enode://b528cb84165522107d5a51a8d743a498357a716fc2962c432155a6c1fd20cd4b1cacbdaddc4e7abbeb6e8be749e6ffc9636ae88e2424781934cca73e7878c195@10.0.0.4:30300
+2019-08-21 03:35:15 UTC Running AuRa with an even number of validators (2) is not recommended (risk of network split).
+2019-08-21 03:35:48 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s, 162857 µs
+2019-08-21 03:36:05 UTC eth_accounts is deprecated and will be removed in future versions: Account management is being phased out see #9997 for alternatives.
+2019-08-21 03:36:05 UTC eth_sendTransaction is deprecated and will be removed in future versions: Account management is being phased out see #9997 for alternatives.
+2019-08-21 03:36:18 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s, 8754 µs
+2019-08-21 03:36:48 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   26 µs
+2019-08-21 03:37:18 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:37:48 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:38:18 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:38:48 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:39:23 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:40:03 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:40:36 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   21 µs
+2019-08-21 03:41:44 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    1 req/s,   20 µs
+2019-08-21 03:42:30 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   20 µs
+2019-08-21 03:43:29 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   20 µs
+2019-08-21 03:44:07 UTC    1/25 peers   920 bytes chain 824 bytes db  0 bytes queue    1 KiB sync  RPC:  0 conn,    0 req/s,   20 µs
